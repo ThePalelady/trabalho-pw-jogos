@@ -1,0 +1,48 @@
+
+body{
+  flex-direction:column ;
+  display: flex;
+}
+.grid {
+  margin: auto;
+  position: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
+
+.jogoDaMemoria{
+  padding: 10rem 0 0 0;
+
+}
+p{
+  font-family: Arial;
+  position: center;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.iconehead{
+
+  background-color: blueviolet;
+  text-align: center;
+
+
+}
+
+.joguinhosDaAna{
+  color: chartreuse;
+  text-decoration:none;
+  font-size: 50px;
+  font-style: unset;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.position{
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 8rem;
+}
