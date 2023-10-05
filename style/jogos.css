@@ -46,3 +46,7 @@ p{
   flex-direction: column;
   padding: 8rem;
 }
+
+button {
+  all: initial; 
+}
