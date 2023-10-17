@@ -1,7 +1,6 @@
 
 body{
   flex-direction:column ;
-  display: flex;
 }
 .grid {
   margin: auto;
@@ -12,7 +11,7 @@ body{
 }
 
 .jogoDaMemoria{
-  padding: 10rem 0 0 0;
+  display: flex;
 
 }
 p{
@@ -41,12 +40,26 @@ p{
 }
 
 .position{
-  justify-items: center;
   display: flex;
   flex-direction: column;
-  padding: 8rem;
+  padding: 10px;
 }
 
 button {
   all: initial; 
+}
+
+.img{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+element.style {
+  width: 150px;
+  height: 150px;
+}
+.items-menu{
+  grid-template-columns: repeat(3, 1fr);
+
 }
