@@ -2,6 +2,21 @@ body {
   background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/nasty_fabric.png)
 }
 
+
+.iconehead{
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.joguinhosDaAna{
+  color: chartreuse;
+  text-decoration:none;
+  font-size: 50px;
+  font-style: unset;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  all: initial; 
+}
+
 .toggle {
   margin-left: 20px;
   margin-right: 20px;
@@ -145,6 +160,7 @@ body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
 
 #inner-circle {
   position: absolute;
