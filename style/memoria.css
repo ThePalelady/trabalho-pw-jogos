@@ -1,0 +1,42 @@
+
+  body{
+    flex-direction:column ;
+    background-color:rgb(164, 247, 161);
+  }
+
+  .grid {
+    margin: auto;
+    position: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+  }
+  
+  p{
+    font-family: Arial;
+    position: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+   
+  .iconehead{
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .joguinhosDaAna{
+    color: chartreuse;
+    text-decoration:none;
+    font-size: 50px;
+    font-style: unset;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  element.style {
+    width: 150px;
+    height: 150px;
+  } 
+
+  

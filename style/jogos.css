@@ -10,10 +10,6 @@ body{
   height: 300px;
 }
 
-.jogoDaMemoria{
-  display: flex;
-
-}
 p{
   font-family: Arial;
   position: center;
@@ -26,6 +22,7 @@ p{
 .iconehead{
   background-color: blueviolet;
   text-align: center;
+  border-radius: 10px;
 }
 
 .joguinhosDaAna{
@@ -55,8 +52,18 @@ button {
 element.style {
   width: 150px;
   height: 150px;
-}
+} 
 .items-menu{
-  grid-template-columns: repeat(3, 1fr);
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(199, 255, 199);
+  padding: 0;
+  justify-content: center;
+  margin-left: 38%;
+  margin-top: 10%;
 
+  
+  
 }
