@@ -23,12 +23,13 @@
   
 
 body {
-    background-color: #696969;
     display: flex;
-    min-height: 100vh;
     align-items: center;
     flex-direction: column;
     color: white;
+    margin: 8px;
+    background-color:rgb(164, 247, 161);
+
 }
 
 canvas {
@@ -40,6 +41,7 @@ canvas {
     flex-direction: column;
     align-items: center;
     font-size: 1.8rem;
+    color: #111 ;
 }
 
 .score--value {
@@ -55,6 +57,7 @@ canvas {
     flex-direction: column;
     align-items: center;
     z-index: 1;
+    margin-top: 20%;
 }
 
 .game-over {

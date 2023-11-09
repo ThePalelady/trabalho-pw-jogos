@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/jogos.css"></link>   
+    <link rel="stylesheet" href="style/jogos.css"></link>  
+    <script src="https://unpkg.com/@phosphor-icons/web"></script> 
     <title>Tela Inicial</title>
      <marquee behavior="scroll" direction="right" scrolldelay="200"  class="iconehead">
          <a class="joguinhosDaAna" href="menu.html">Joguinhos da Ana</a
@@ -15,6 +16,13 @@
         <div class="position" >
             <a href="telas\JogoDaCobrinha.html"> <img class="img" src="images/Cobrinha.png" href="..\telas\JogoDaCobrinha.html"> </a>
             <a href="telas\JogoDaCobrinha.html" class="text-color">Joguinho da Cobrinha</a>
+            <div class="stars">
+                <i class="ph-fill ph-star"></i>
+                <!-- <i class="ph ph-star"></i> -->
+                <!-- <i class="ph ph-star"></i>
+                <i class="ph ph-star"></i>
+                <i class="ph ph-star"></i> -->
+            </div>
         </div>
         <div class="position" >
             <a href="telas\JogoDaMemoria.html"> <img src="images/blank.png" href="..\telas\JogoDaMemoria.html"> </a>
@@ -25,6 +33,15 @@
             <a href="telas\JogoDoSimon.html" class="text-color">Joguinho do Simon</a>
         </div>
 
+        <script>
+            const estrelinhaaa = document.getElementsByClassName("stars")
+            const estrela = document.createElement("i")
+            const estrelas = [document.createElement("i"), document.createElement("i"), document.createElement("i"), document.createElement("i"), document.createElement("i")];
+            console.log(estrelinhaaa)
+
+            estrela.className = "ph ph-star"
+            estrelinhaaa[0].appendChild(estrela)
+        </script>
     </div>
     <div></div>
 </body>
