@@ -48,6 +48,7 @@
 			max: { x: 500, y: 800 }
 		};
 
+		
 		render = Matter.Render.create({
 			element: $('.container')[0],
 			engine: engine,
